@@ -1,9 +1,13 @@
-# CSDS HW6: CF based Music Recommendation
+# CF based Music Recommendation
 # Author: Zhifu Xiao (zx2201)
 
-### Part 1
+# Purpose
 
-The file **homework6.ipynb** is the notebook file for this part. It contains a bash script to do some data preprocessing. The main function is to generate CF-based music recommendation. The output for 10 favourite products are shown below:
+The purpose is to build a recommendation system with Spark and MLib using a dataset published by AudioScrobbler. This data is 500MB uncompressed and can be downloaded [here](https://old.datahub.io/dataset/audioscrobbler)
+
+## Part 1
+
+The file **homework6.ipynb** is the notebook file for this part. It contains a bash script to do some data preprocessing. The main function is to generate CF-based music recommendation using the Machine Learning model called Matrix Factorization. The output for 10 favourite products are shown below:
 
 > 50 Cent \
 > [unknown] \
@@ -16,7 +20,7 @@ The file **homework6.ipynb** is the notebook file for this part. It contains a b
 > Gwen Stefani \
 > Beastie Boys
 
-### Part 2
+## Part 2
 
 The file **hw6-1.png** and **hw6-2.png** are the outputs from AWS EC2 server. In this part, I firstly used WinSCP to transfer the data from my own computer to the server. Next, I ran the command to do data preprocessing like in part 1, and I then transfer the data files from local to HDFS system. The codes are shown below.
 
