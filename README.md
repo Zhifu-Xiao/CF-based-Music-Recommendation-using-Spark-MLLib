@@ -3,7 +3,7 @@
 
 # Purpose
 
-The purpose is to build a recommendation system with Spark and MLib using a dataset published by AudioScrobbler. This data is 500MB uncompressed and can be downloaded [here](https://old.datahub.io/dataset/audioscrobbler)
+The purpose is to build a recommendation system with Spark and MLib using a dataset published by AudioScrobbler. This data is 500MB uncompressed and can be downloaded [here](https://old.datahub.io/dataset/audioscrobbler).
 
 ## Part 1
 
